@@ -1,0 +1,19 @@
+{
+  "name": "endd-tweak",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/W-DevEndd/endd-tweak.git",
+  "author": "W-DevEndd <W-DevEndd@github.com>",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "bunx tsc",
+  },
+  "dependencies": {
+    "asajs": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3"
+  }
+}

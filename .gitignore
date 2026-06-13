@@ -1,0 +1,7 @@
+# dependencies (bun install)
+
+# build
+node_modules
+dist
+*.tgz
+tsconfig.tsbuildinfo
