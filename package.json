@@ -1,6 +1,6 @@
 {
   "name": "endd-tweak",
-  "type": "commonjs",
+  "type": "module",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,8 @@
   "author": "W-DevEndd <W-DevEndd@github.com>",
   "license": "GPL-3.0-only",
   "scripts": {
-    "build": "bunx tsc"
+    "build": "bunx tsc",
+    "test": "bun ./test/app.ts"
   },
   "dependencies": {
     "asajs": "^4.2.0"

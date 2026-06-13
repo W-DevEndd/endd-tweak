@@ -5,3 +5,7 @@ node_modules
 dist
 *.tgz
 tsconfig.tsbuildinfo
+
+# test
+asajs.config.js
+build
