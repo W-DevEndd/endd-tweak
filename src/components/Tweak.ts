@@ -1,10 +1,12 @@
+import type { TweakProps } from "../types/properties/TweakProps";
 import TweakTypes from "../types/TweakTypes";
 
-export class Tweak {
+export class Tweak<T extends TweakProps> {
     private type: TweakTypes;
-    private props: any;
+    private props: T;
 
-    constructor(type: TweakTypes, props: any) {
+    constructor(type: TweakTypes, props: T) {
         this.type = type;
+        this.props = props;
     }
 }

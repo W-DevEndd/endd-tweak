@@ -1,7 +1,5 @@
 
-interface {
-    /**
-     * Value on defaultV
-    */
-    defaultValue
+export interface BooleanProps {
+    defaultValue: boolean;
+    value?: boolean;
 }
