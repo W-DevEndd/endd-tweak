@@ -1,6 +1,12 @@
 
 import "../";
-import { Section } from "../";
+import { Option, Section } from "../";
 
-const section = Section.register("Blocks");
-const section1 = Section.register("Blocks");
+const blocks = Section.register("Blocks");
+
+blocks.addOption(Option.bool(
+    {
+        name: "Full Grass",
+        imagePath: "https://google.com",
+    }, true, "aaaaa",
+));
