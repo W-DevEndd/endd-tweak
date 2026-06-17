@@ -1,5 +1,5 @@
 
 export interface BooleanProps {
-    defaultValue: boolean;
+    defaultValue: number;
     value?: boolean;
 }
